@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#1E1E1E"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:paddingHorizontal="12dp">
+
+    <TextView
+        android:fontFamily="sans-serif-condensed"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:textColor="#fff"
+        android:text="Добавьте заметку"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <EditText
+        android:id="@+id/et_title"
+        android:layout_marginTop="12dp"
+        android:background="@drawable/shape_notes"
+        android:paddingVertical="16dp"
+        android:paddingHorizontal="12dp"
+        android:textColor="#fff"
+        android:fontFamily="sans-serif-condensed"
+        android:textColorHint="#fff"
+        android:hint="Введите название"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <EditText
+        android:id="@+id/et_description"
+        android:layout_marginTop="12dp"
+        android:background="@drawable/shape_notes"
+        android:paddingVertical="16dp"
+        android:paddingHorizontal="12dp"
+        android:textColor="#fff"
+        android:fontFamily="sans-serif-condensed"
+        android:textColorHint="#fff"
+        android:hint="Введите описание"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:id="@+id/btn_save"
+        android:textStyle="bold"
+        android:layout_marginTop="12dp"
+        android:fontFamily="sans-serif-condensed"
+        android:textColor="#fff"
+        android:text="Сохранить"
+        android:background="@drawable/shape_notes"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+</LinearLayout>
